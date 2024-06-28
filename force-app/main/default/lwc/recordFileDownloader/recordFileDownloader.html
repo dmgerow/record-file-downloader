@@ -1,0 +1,10 @@
+<template>
+  <template if:true={error}>{error}</template>
+  <lightning-button
+    label="Download All Files"
+    title="Download All Files"
+    onclick={downloadFiles}
+    disabled={isDisabled}
+  >
+  </lightning-button>
+</template>
